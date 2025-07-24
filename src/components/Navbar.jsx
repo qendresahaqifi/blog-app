@@ -95,7 +95,7 @@ const Navbar = () => {
 
       {/* Mobile Nav */}
       <div>
-        <ul className={`md:hidden gap-12 text-lg block space-y-4 px-4 py-6 mt-14 bg-white text-gray-700 
+        <ul className={`md:hidden gap-12 text-lg block space-y-4 px-4 py-6 mt-14 bg-white dark:bg-gray-700 dark:text-white text-gray-700 
           ${isMenuOpen ? "fixed top-0 left-0 w-full transition-all ease-out duration-150" : "hidden"}`}>
           {navLinks.map(link => (
             <li key={link.path}>
